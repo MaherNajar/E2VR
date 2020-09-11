@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "e2vr-test"
+    "default": "e2vr-test",
+    "e2vr-test":"e2vr-test"
   }
 }
