@@ -1,27 +1,21 @@
-# VideoGamesApp
+# Bonjour, E2VR!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+## Voici le classement des jeux vidéos populaire en 2019.
 
-## Development server
+## Cette application utilise Angular et bootstrap. Les étapes que j'ai suivi sont les suivantes :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Génération de la solution avec le CLI
 
-## Code scaffolding
+2. Création des dossiers Model, Services, Components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Création du Service
 
-## Build
+4. Création du Composant et affichage de la liste
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+5. Création du Composant pour l'affichage détaillé
 
-## Running unit tests
+6. Ajout de la pagination
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7. Ajout de la page A propos.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+8. Deploiement sur Firebase hosting

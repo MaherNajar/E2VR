@@ -1,0 +1,28 @@
+<p class="text-right">
+  <a routerLink="/about">A propos</a>
+</p>
+<div class="text-center">
+  <h3 class="mb-5">List Popular Videos Game</h3>
+
+  <button
+    (click)="previous()"
+    [disabled]="currentPage === 0"
+    class="btn btn-primary"
+  >
+    Previous
+  </button>
+  <button
+    (click)="next()"
+    [disabled]="currentPage === totalPages"
+    class="btn btn-success"
+  >
+    next
+  </button>
+  {{ currentPage + 1 }} / {{ totalPages + 1 }}
+
+  <ul class="mt-3" style="list-style: none">
+    <li *ngFor="let game of pageItems; let rank = index">
+      <game-detail [game]="game" [rank]="getRank(rank)"> </game-detail>
+    </li>
+  </ul>
+</div>
