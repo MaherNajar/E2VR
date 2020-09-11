@@ -4,7 +4,13 @@ import { Game } from 'src/app/models/game';
 @Component({
   selector: 'game-detail',
   templateUrl: './game-detail.component.html',
-  styles: [],
+  styles: [
+    `
+      th {
+        white-space: nowrap;
+      }
+    `,
+  ],
 })
 export class GameDetailComponent implements OnInit {
   @Input('game') game: Game;
