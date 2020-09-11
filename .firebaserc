@@ -1,15 +1,5 @@
 {
   "projects": {
-    "e2vr-test":"e2vr-test",
     "default": "e2vr-test"
-  },
-  "targets": {
-    "e2vr-test": {
-      "hosting": {
-        "e2vr-test": [
-          "e2vr-test"
-        ]
-      }
-    }
   }
 }
