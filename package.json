@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting --project e2vr-test"
+    "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting --project E2VR"
   },
   "private": true,
   "dependencies": {
