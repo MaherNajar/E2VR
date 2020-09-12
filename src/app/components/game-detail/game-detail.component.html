@@ -14,8 +14,7 @@
       <img
         [src]="game.background_image"
         [alt]="game.name"
-        width="100"
-        height="100"
+        style="width: 40%"
         [title]="game.name"
         (click)="showDetails = false"
       />
@@ -36,8 +35,7 @@
     (click)="showDetails = true"
     [src]="game.background_image"
     [alt]="game.name"
-    width="300"
-    height="300"
+    width="70%"
     [title]="game.name"
     class="mb-2"
   />
