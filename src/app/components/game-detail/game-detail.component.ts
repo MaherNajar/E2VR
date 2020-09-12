@@ -6,7 +6,8 @@ import { Game } from 'src/app/models/game';
   templateUrl: './game-detail.component.html',
   styles: [
     `
-      th {
+      th,
+      td {
         white-space: nowrap;
       }
     `,
